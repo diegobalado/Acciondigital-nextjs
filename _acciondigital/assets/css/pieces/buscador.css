@@ -1,0 +1,54 @@
+/*BUSCADOR*/ 
+#buscador {
+	width: 50%;
+	margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+	#buscador {
+		width: 100%;
+		padding: 0;
+		margin-top: 20px;
+	}
+}
+@media screen and (max-width: 980px) {
+	#buscador {
+		margin-top: 0;
+	}
+}
+@media screen and (max-width: 768px) {
+	#buscador {
+		width: 100%;
+		padding: 0;
+	}
+}
+#buscador input[name="userID"] {
+	display: inline;
+	width: calc(100% - 300px);
+}
+#buscador input[name="buscar"] {
+	display: inline;
+	width: 92px;
+	margin-left: 1em;
+	float: right;
+}
+#buscador input[name="untagged"] {
+	display: inline;
+	width: 172px;
+	margin-left: 1em;
+	float: right;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1024px) {
+	#buscador input[name="userID"] {
+		width: 278px;
+		margin-bottom: 20px;
+		float: right;
+	}
+}
+@media screen and (max-width: 480px) {
+	#buscador input[name="buscar"], #buscador input[name="untagged"], #buscador input[name="userID"] {
+		width: 100%;
+		margin: 20px 0 0;
+	}
+}

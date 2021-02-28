@@ -1,0 +1,19 @@
+{
+  "eventos": [
+    {
+      "ID": "101_XCO_8_3_20",
+      "text": "OPEN XCO TANDIL 8.3.2020",
+      "ph": "JPF"
+    }
+  ],
+  "ads": [
+    {
+      "name": "FunaroWeb.jpg",
+      "href": "https:\/\/www.facebook.com\/pablo.funaro.3"
+    },
+    {
+      "name": "CuevasWeb.jpg",
+      "href": "https:\/\/www.facebook.com\/cuevascyclincoach\/"
+    }
+  ]
+}

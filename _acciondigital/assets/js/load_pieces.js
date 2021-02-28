@@ -1,0 +1,1 @@
+$('#footer').load('/assets/includes/footer.htm');

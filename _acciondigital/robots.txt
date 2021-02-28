@@ -1,0 +1,14 @@
+User-Agent: *
+Disallow: /assets/
+Disallow: /checkout/
+Disallow: /auth/
+Disallow: /agenda/
+
+User-Agent: *
+Allow: /inicio/
+Allow: /eventos/
+Allow: /galeria/
+Allow: /amigos/
+Allow: /contacto/
+
+Sitemap: http://www.acciondigitalfoto.com/sitemap.xml
