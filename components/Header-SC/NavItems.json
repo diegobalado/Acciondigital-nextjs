@@ -1,0 +1,22 @@
+[
+  {
+    "href": "/inicio/",
+    "icon": "home",
+    "label": "Inicio"
+  },
+  {
+    "href": "/amigos/",
+    "icon": "users",
+    "label": "Amigos"
+  },
+  {
+    "href": "/contacto/",
+    "icon": "envelope",
+    "label": "Contacto"
+  },
+  {
+    "href": "/faq/",
+    "icon": "question-circle",
+    "label": "Ayuda"
+  }
+]

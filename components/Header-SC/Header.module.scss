@@ -1,0 +1,150 @@
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 130px;
+  width: 100%;
+  background: #333;
+  color: #fff;
+
+  &.shrink {
+    background: #333;
+    height: 80px;
+    line-height: 80px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+
+    h1 {
+      font-size: 24px;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    .nav ul li:before {
+      display: none;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    .logo {
+      margin-top: 10px;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+
+      img {
+        height: 60px;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+      }
+    }
+  }
+
+  h1 {
+    font-size: 30px;
+    font-weight: normal;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .logo {
+    float: left;
+    margin-top: 15px;
+    margin-left: 30px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+
+    img {
+      height: 100px;
+      display: block;
+      width: auto;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+      height: 160px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .header.shrink .nav ul li .icon:before {
+      font-size: 1em;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header .logo {
+      float: none;
+      margin: 20px auto 0;
+      display: block;
+      width: 220px;
+  }
+
+  .header.shrink .logo {
+      float: left;
+      margin-left: 1em;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+  }
+
+  .header .logo img {
+      height: 80px;
+  }
+
+  #nav-header {
+      margin-top: 5px;
+      float: none;
+  }
+
+  .header.shrink #nav-header {
+      margin-top: 25px;
+      margin-right: 10px;
+      width: 230px;
+      float: right;
+  }
+
+  .header #nav-header ul li a .icon:before {
+      font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #nav-header {
+      margin-top: 0px;
+      width: 100%;
+  }
+
+  #nav-header ul li:first-child {
+      margin-left: 0;
+  }
+
+  .header.shrink .logo {
+      width: 160px;
+  }
+
+  .header.shrink #nav-header {
+      width: 100px;
+      margin-top: 1em;
+  }
+
+  .header.shrink #nav-header ul li {
+      margin-bottom: 0;
+  }
+
+  .header.shrink #nav-header ul li.home {
+      display: none;
+  }
+}

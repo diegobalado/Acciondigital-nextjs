@@ -1,0 +1,29 @@
+.navHeader {
+  a {
+    color: #ccc;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  ul {
+    display: flex;
+
+    li.active a {
+      color: #FAC200;
+    }
+  }
+}
+
+.header.shrink .navHeader {
+  margin-top: 15px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+
+  ul li a .text {
+    display: none;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+}
